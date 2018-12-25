@@ -1,3 +1,4 @@
 FROM jboss/keycloak
-WORKDIR /opt/jboss/keycloak/themes 
+MKDIR /opt/jboss/keycloak/themes/rh-sso
+WORKDIR /opt/jboss/keycloak/themes/rh-sso
 COPY ./rh-sso ./
